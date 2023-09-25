@@ -37,67 +37,73 @@
         <a href="#">Sign Up</a>
     </div>
 
-    <div class="line" id="Home">
-        <div class="side1">
-            <h1>ML projects</h1><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div id="contacts">
+                    <section class="contact" id="contact">
+                        <div class="content">
+                            <div class="title"><span></span></div>
+                            <div class="contactMenu">
+                                <div class="input1">
+                                    <div class="label1">Your Name</div>
+                                    <div class="input2">
+                                        <input type="text" value="Chituyi"
+                                               placeholder="Enter your Name here">
+                                    </div><br>
+                                    <div class="label1">
+                                        <label>Your Email</label>
+                                    </div>
+                                    <div class="input2">
+                                        <input type="text" value="cwakhusama@gmail.com"
+                                               placeholder="Enter your Email here">
+                                    </div><br>
+                                    <div class="label1">
+                                        <label>Your Password</label>
+                                    </div>
+                                    <div class="input2">
+                                        <input type="text" value="test"
+                                               placeholder="Enter your Password here">
+                                    </div>
+                                    <div class="button"><br>
+                                        <button>Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <section class="abt" id="My Projects" style="background-image: url('{{ url_for('static', filename='image.jpg') }}');">
+                                    <div class="content">
+                                        <div class="boxes">
+                                            <div class="box">
+                                                <div class="topic">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer>
+                        <div class="footer">
+                            <span>
+                                Brought to you by Chituyi 👋😊❤️ Created By
+                                <a href="https://dallo7.github.io/"
+                                   target="_blank">
+                                    ML Concepts and Projects
+                                </a>
+                            </span>
+                        </div>
+                    </footer>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div id="contacts">
-        <section class="contact" id="contact">
-            <div class="content">
-                <div class="title"><span></span></div>
-                <div class="contactMenu">
-                    <div class="input1">
-                        <div class="label1">Your Name</div>
-                        <div class="input2">
-                            <input type="text" value="Chituyi"
-                                   placeholder="Enter your Name here">
-                        </div><br>
-                        <div class="label1">
-                            <label>Your Email</label>
-                        </div>
-                        <div class="input2">
-                            <input type="text" value="cwakhusama@gmail.com"
-                                   placeholder="Enter your Email here">
-                        </div><br>
-                        <div class="label1">
-                            <label>Your Password</label>
-                        </div>
-                        <div class="input2">
-                            <input type="text" value="test"
-                                   placeholder="Enter your Password here">
-                        </div>
-                        <div class="button"><br>
-                            <button>Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="abt" id="My Projects" style="background-image: url('{{ url_for('static', filename='image.jpg') }}');">
-            <div class="content">
-                <div class="boxes">
-                    <div class="box" >
-                        <div class="topic">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div class="footer">
-                <span>
-                    Brought to you by Chituyi 👋😊❤️ Created By
-                    <a href="https://dallo7.github.io/"
-                       target="_blank">
-                        ML Concepts and Projects
-                    </a>
-                </span>
-            </div>
-        </footer>
     </div>
 
     <script src="index.js"></script>

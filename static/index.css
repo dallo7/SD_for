@@ -9,30 +9,16 @@
 
 }
 
-#{
-	border: solid 2px aliceblue;
-    border-radius: 5px;
-    box-shadow: 0 0 3px black;
-    width: 600px;
-    bottom: 25%;
-	top: 20%;
-	left: 60%;
-	right: 5%;
-    height: 600px;
-    position: absolute;
-    transform: translate(-50%, 0)
-}
-
 #contacts{
 	border: solid 2px aliceblue;
     border-radius: 5px;
     box-shadow: 0 0 3px black;
     width: 600px;
-    bottom: 25%;
-	top: 20%;
-	left: 20%;
-	right: 10%;
-    height: 600px;
+    bottom: 10%;
+	top: 15%;
+	left: 25%;
+	right: 5%;
+    height: 550px;
     position: absolute;
     transform: translate(-50%, 0)
 }
@@ -229,8 +215,8 @@ section .topic a {
     box-shadow: 0 0 3px black;
     width: 500px;
     bottom: 30%;
-	top: 10%;
-	left: 200%;
+	top: 5%;
+	left: 150%;
 	right: 5%;
     height: 500px;
     position: absolute;
